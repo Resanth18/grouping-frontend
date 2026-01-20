@@ -1,7 +1,8 @@
 import axios from "axios";
 
+// 🔥 USE ENV VARIABLE
 const API = axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL: import.meta.env.VITE_PORTAL_BASE_URL,
   headers: {
     "Content-Type": "application/json",
   },
@@ -20,8 +21,7 @@ export const forgotPassword = (data) =>
 export const resetPassword = (data) =>
   API.post("/auth/reset-password", data);
 
-export const setNewPassword = (data) => {
-  return API.post("/set-new-password", data);
-};
+export const setNewPassword = (data) =>
+  API.post("/auth/set-new-password", data);
 
 export default API;

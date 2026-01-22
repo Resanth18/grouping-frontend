@@ -2,7 +2,7 @@ import axios from "axios";
 
 // 🔥 USE ENV VARIABLE
 const API = axios.create({
-  baseURL: import.meta.env.VITE_PORTAL_BASE_URL,
+  baseURL: "http://13.127.41.98:8081",
   headers: {
     "Content-Type": "application/json",
   },

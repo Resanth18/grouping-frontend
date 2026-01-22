@@ -2,12 +2,12 @@ import axios from "axios";
 
 // 🔥 USE ENV VARIABLE
 const API = axios.create({
-  baseURL: import.meta.env.VITE_PORTAL_BASE_URL,
+  baseURL: import.meta.env.VITE_API_URL,
   headers: {
     "Content-Type": "application/json",
   },
-  withCredentials: false,
 });
+
 
 // LOGIN
 export const login = (data) =>

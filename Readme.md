@@ -1,4 +1,10 @@
-# Frontend Authentication Portal (React)
+# Aws-SprinBoot Login Application FRONTEND (React+Vite)
+
+> **Intern Project – Fully Working with Backend Integgration**
+> Built using **React.js + Vite**.
+> read README documents **each and every step** i implemented, why i did it, what happens in the background, and here we see how the complete login lifecycle works.
+
+## Frontend Authentication Portal (React)
 
 This document explains **everything we did in the frontend**, **why we did it**, and **what would break if we didn’t do it**, written for a **complete beginner**.
 
